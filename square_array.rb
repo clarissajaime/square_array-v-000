@@ -4,5 +4,5 @@ def square_array(numbers)
   numbers.each do |x|
     new_numbers << x*x
   end
-  print new_numbers
+  new_numbers
 end
